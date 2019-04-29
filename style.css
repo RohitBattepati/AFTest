@@ -1,0 +1,79 @@
+
+/* Overall Styles */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {height:20%;}
+html {display:table; width:100%;}
+
+body{  
+    width: 50vw;
+    padding: 20px;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;  
+}
+
+/* Header Style  */
+header{
+    background-color: #dee0e2;
+    padding: 20px;
+}
+
+.text-muted{
+    font-size: 30px;
+}
+
+/* Sub Heading Styles */
+.names{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Form Styles */
+.taskContent{
+    padding-top: 5%;
+}
+
+#tasks{
+    display: inline;
+}
+
+.taskInput{
+    background-color: #dee0e2;
+    border: none;
+    height: 30px;
+    width: 400px;  
+}
+
+#result{
+    border: 1px solid black;
+    height: 40px;
+    line-height: 40px;  
+}
+
+.resultItem{
+    display: inline;
+    padding: 5px;
+}
+
+
+/* Input Box Styles */
+#tasksAssigned{
+    position: relative;
+    right: -30%;
+    font-weight: bold;
+}
+
+#taskNames{
+    font-weight: bold;
+}
+
+#tasksDate{
+    color: #494949;
+    font-size: 15px;
+}
+
